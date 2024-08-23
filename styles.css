@@ -1,20 +1,53 @@
 h1
 {
-    color:rgb(26, 126, 1);
-    font-size:75px;
+    color:#1a7e01;
+    font-size:50px;
     font-variant: small-caps;
     font-family: "Lucida Handwriting";
+    text-align: center;
+    margin-top:10px;
+    margin-left:8px;
+    text-decoration:underline;
 }
 
 a
 {
-    color:#a52a2a;
+    color:#ffffff;
     font-size:25px;
-    font-family: "Comic Sans MS";
-    text-align:center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 ul
 {
     font-weight:bold;
+    text-align:center;
+    padding:0px;
 }
+
+li{
+    width: 400px;
+    display:block;
+    margin:10px auto;
+    padding: 30px 10px;
+    border-style:solid;
+    background-color:#1a7e01;
+    border-radius: 25px;
+}
+
+#eggs:hover
+{
+    background-image:url("https://www.allrecipes.com/thmb/2XKE0aKGVcShhaezVkfPtSHVhyA=/0x512/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/222589-simple-deviled-eggs-ddmfs-1382-4x3-dea80f9108f044af8a8e29c1664bfa13.jpg");
+}
+#eggs:hover > a {color:black;}
+
+#cake:hover
+{
+    background-image:url("https://www.allrecipes.com/thmb/RfU94bqBq-2cyA9OMUNpnhRsCy0=/0x512/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/AR-8149-flourless-chocolate-cake-DDMFS-beauty-4x3-2d77ec0a96ee46cf94d06b84509dc9e4.jpg");
+}
+#cake:hover > a {color:black;}
+
+#fish:hover
+{
+    background-image:url("https://www.allrecipes.com/thmb/22Ot2g_voknxhKguzhcNn7nROnQ=/0x512/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/AR-20107-Beer-Batter-Fish-Made-Great-ddmfs-4x3-hero-ea96d87b5a134f83a28f4534c6e0d805.jpg");
+}
+#fish:hover > a {color:black;}
